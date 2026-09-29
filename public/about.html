@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Blush Stone | Haute Joaillerie Atelier · Est. 2026</title>
+  <meta name="description" content="Discover the story of Blush Stone. Founded in 2026 to bring calm elegance, architectural warmth, and heirloom craftsmanship to modern fine jewelry.">
+  
+  <link rel="icon" type="image/jpeg" href="/images/logo.jpg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: {
+              DEFAULT: '#FBF9F5',
+              pure: '#FAF7F2',
+              light: '#FDFAF6',
+              dark: '#F2ECE4',
+              subtle: '#F6F1EA'
+            },
+            bronze: {
+              DEFAULT: '#8C6D3B',
+              light: '#A38148',
+              dark: '#674D23',
+              deep: '#4E3816'
+            },
+            gold: {
+              DEFAULT: '#C5A059',
+              light: '#DFBD7A',
+              dark: '#A6823A',
+              shimmer: '#F7E6B8'
+            },
+            stone: {
+              charcoal: '#241F1A',
+              warm: '#473E35',
+              muted: '#82786D',
+              border: '#E8E1D7'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="bg-cream text-stone-charcoal font-sans antialiased selection:bg-amber-100 selection:text-amber-900 min-h-screen flex flex-col">
+
+  <!-- Announcement Bar -->
+  <div class="bg-[#241F1A] text-[#FAF7F2] py-2 px-4 text-center text-xs tracking-widest uppercase font-medium flex items-center justify-center gap-3">
+    <span class="text-amber-400">✦</span>
+    <span>Complimentary Insured Delivery on orders over $250 · Est. 2026 Atelier</span>
+    <span class="text-amber-400">✦</span>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="sticky top-0 z-40 header-glass transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <div class="flex items-center lg:hidden">
+          <button id="mobile-menu-toggle" type="button" class="p-2 text-stone-700 hover:text-bronze focus:outline-none" aria-label="Open Navigation">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+
+        <nav class="hidden lg:flex items-center space-x-8 text-xs uppercase tracking-widest font-medium text-stone-700">
+          <a href="/" class="hover:text-bronze transition-colors pb-1">Home</a>
+          <a href="/shop.html" class="hover:text-bronze transition-colors pb-1">Collections</a>
+          <a href="/shop.html?category=rings" class="hover:text-bronze transition-colors pb-1">Rings</a>
+          <a href="/shop.html?category=necklaces" class="hover:text-bronze transition-colors pb-1">Necklaces</a>
+        </nav>
+
+        <div class="flex-shrink-0 flex items-center justify-center text-center">
+          <a href="/" class="flex items-center gap-3 group">
+            <img src="/images/logo.jpg" alt="Blush Stone Logo" class="h-11 sm:h-12 w-auto object-contain rounded mix-blend-multiply group-hover:opacity-95 transition-opacity">
+            <div class="flex flex-col text-left">
+              <span class="font-serif text-xl sm:text-2xl tracking-[0.18em] font-normal text-stone-900 group-hover:text-bronze transition-colors">BLUSH STONE</span>
+              <span class="text-[9px] tracking-[0.28em] text-bronze uppercase font-serif italic">— Since 2026 —</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="flex items-center space-x-6 sm:space-x-7">
+          <nav class="hidden lg:flex items-center space-x-8 text-xs uppercase tracking-widest font-medium text-stone-700 mr-2">
+            <a href="/about.html" class="text-bronze font-semibold border-b-2 border-bronze pb-1">About</a>
+            <a href="/contact.html" class="hover:text-bronze transition-colors pb-1">Concierge</a>
+          </nav>
+
+          <button class="trigger-search-modal p-2 text-stone-700 hover:text-bronze transition-colors" title="Search Pieces (Ctrl+K)">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </button>
+
+          <a href="/shop.html" class="relative p-2 text-stone-700 hover:text-bronze transition-colors" title="Wishlist">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+            <span class="wishlist-count-badge hidden absolute -top-1 -right-1 w-4 h-4 bg-amber-800 text-white rounded-full text-[10px] items-center justify-center font-bold">0</span>
+          </a>
+
+          <button class="trigger-cart-drawer relative p-2 text-stone-700 hover:text-bronze transition-colors flex items-center gap-1.5" title="Shopping Bag">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+            </svg>
+            <span class="cart-count-badge hidden w-4 h-4 bg-bronze text-white rounded-full text-[10px] items-center justify-center font-bold">0</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    
+    <!-- Hero Story Banner -->
+    <section class="py-20 lg:py-28 bg-cream-pure border-b border-amber-900/10 text-center relative overflow-hidden">
+      <div class="max-w-4xl mx-auto px-4 relative z-10 space-y-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-50 border border-amber-200/60 text-bronze text-xs font-semibold tracking-widest uppercase">
+          ✦ Since 2026 ✦
+        </span>
+        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-stone-900 font-normal leading-tight">
+          The Story of Blush Stone
+        </h1>
+        <div class="divider-star my-4"><span class="text-gold">✦</span></div>
+        <p class="text-base sm:text-lg text-stone-600 font-light max-w-2xl mx-auto leading-relaxed">
+          Founded on the quiet belief that luxury does not need to shout. Born in 2026, Blush Stone crafts modern heirlooms bathed in the warmth of gold, architectural lines, and radiant stillness.
+        </p>
+      </div>
+    </section>
+
+    <!-- Narrative Section: Genesis -->
+    <section class="py-20 bg-cream">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-6 space-y-6">
+            <span class="text-xs uppercase tracking-widest text-bronze font-semibold">Our Genesis</span>
+            <h2 class="font-serif text-3xl sm:text-4xl text-stone-900 font-normal leading-tight">
+              A Return to Tactile Warmth and Intimate Ceremony
+            </h2>
+            <p class="text-sm sm:text-base text-stone-600 leading-relaxed font-light">
+              Blush Stone began with a single hand-sketched celestial eye medallion. In an era of mass-produced, ephemeral fashion, we felt the absence of jewelry that holds soulful presence — pieces that feel as sensual against bare linen as they do beneath an evening coat.
+            </p>
+            <p class="text-sm sm:text-base text-stone-600 leading-relaxed font-light">
+              We chose the name <em>Blush Stone</em> to capture the rosy, golden dusk light that turns raw minerals into living warmth. Each curve is tested for balance on the collarbone, weight on the wrist, and comfort through full seasons of wear.
+            </p>
+            <div class="pt-2 flex items-center gap-4 text-xs tracking-wider text-bronze font-semibold uppercase">
+              <span>✦ Minimalist Architecture</span>
+              <span>✦ Antique Allure</span>
+              <span>✦ Modern Ritual</span>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6">
+            <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3] bg-stone-100">
+              <img src="/images/hero-editorial-model.jpg" alt="Blush Stone Campaign Vision" class="w-full h-full object-cover">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Craftsmanship Atelier Section -->
+    <section id="craftsmanship" class="py-20 bg-cream-pure border-t border-b border-amber-900/10">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <div class="lg:col-span-6 order-2 lg:order-1">
+            <div class="rounded-3xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3] bg-stone-100">
+              <img src="/images/about-craftsmanship.jpg" alt="Bench Jeweler Artisan" class="w-full h-full object-cover">
+            </div>
+          </div>
+
+          <div class="lg:col-span-6 space-y-6 order-1 lg:order-2">
+            <span class="text-xs uppercase tracking-widest text-bronze font-semibold">The Bench Jeweler Atelier</span>
+            <h2 class="font-serif text-3xl sm:text-4xl text-stone-900 font-normal leading-tight">
+              Micron Perfection Under Magnification
+            </h2>
+            <p class="text-sm sm:text-base text-stone-600 leading-relaxed font-light">
+              Our bench jewelers bring decades of classical European and Asian goldsmithing heritage. Rather than relying on superficial flash coatings, our vermeil pieces undergo triple-layer 2.5 micron 18k gold immersion over solid sterling silver cores.
+            </p>
+            <p class="text-sm sm:text-base text-stone-600 leading-relaxed font-light">
+              Our stones — from genuine chatoyant tiger's eye to step-cut baguette crystals — are hand-set with micro-prongs and seamless channel walls, ensuring they never loosen or catch on delicate silks.
+            </p>
+            <div class="border-l-2 border-bronze pl-4 py-1 italic font-serif text-stone-800 text-lg">
+              "We measure our success not by seasonal trends, but by how beautifully our pieces wear thirty years from today."
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Ethical Commitments -->
+    <section id="materials" class="py-20 bg-cream text-center">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+        <span class="text-xs uppercase tracking-widest text-bronze font-semibold">Conscious Luxury</span>
+        <h2 class="font-serif text-3xl sm:text-4xl text-stone-900 mt-2 font-normal">Our 2026 Atelier Standards</h2>
+        <div class="divider-star my-4"><span class="text-gold">✦</span></div>
+
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+          
+          <div class="p-6 bg-white rounded-2xl border border-amber-900/10 shadow-sm space-y-3">
+            <div class="text-bronze text-xl font-serif">01 · Recycled Metals</div>
+            <h3 class="font-serif text-lg text-stone-900 font-medium">100% Circular Gold & Silver</h3>
+            <p class="text-xs text-stone-600 leading-relaxed font-light">
+              Every ounce of gold and silver in our foundry is refined from certified post-consumer sources, drastically curbing carbon footprints without compromising molecular purity.
+            </p>
+          </div>
+
+          <div class="p-6 bg-white rounded-2xl border border-amber-900/10 shadow-sm space-y-3">
+            <div class="text-bronze text-xl font-serif">02 · Ethical Gemstones</div>
+            <h3 class="font-serif text-lg text-stone-900 font-medium">Conflict-Free & Certified</h3>
+            <p class="text-xs text-stone-600 leading-relaxed font-light">
+              We partner exclusively with certified artisanal lapidaries who maintain safe workshop conditions and fair living compensation.
+            </p>
+          </div>
+
+          <div class="p-6 bg-white rounded-2xl border border-amber-900/10 shadow-sm space-y-3">
+            <div class="text-bronze text-xl font-serif">03 · Forever Care</div>
+            <h3 class="font-serif text-lg text-stone-900 font-medium">Lifetime Clean & Check</h3>
+            <p class="text-xs text-stone-600 leading-relaxed font-light">
+              Complimentary annual inspection, prong tightening, and ultrasonic cleaning for every verified piece that leaves our atelier.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="mt-14">
+          <a href="/shop.html" class="btn-luxury-primary px-8 py-4 rounded-full text-xs font-semibold uppercase tracking-widest inline-block shadow-lg">
+            Explore The Pieces We Create
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Luxury Footer -->
+  <footer class="bg-[#241F1A] text-[#FAF7F2] pt-16 pb-12 border-t border-amber-900/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
+        
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <img src="/images/logo.jpg" alt="Blush Stone Logo" class="h-10 w-auto rounded object-contain bg-[#FAF7F2] p-0.5">
+            <div>
+              <span class="font-serif text-xl tracking-[0.18em] font-normal text-white">BLUSH STONE</span>
+              <p class="text-[9px] tracking-[0.25em] text-gold uppercase font-serif italic">— Since 2026 —</p>
+            </div>
+          </div>
+          <p class="text-xs text-stone-400 leading-relaxed font-light max-w-sm">
+            High jewelry conceived in serene harmony. Honoring timeless silhouettes with ethically sourced gold, lab-grown diamonds, and protective talismans.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-widest text-gold font-semibold mb-4">Collections</h4>
+          <ul class="space-y-2 text-xs text-stone-300">
+            <li><a href="/shop.html?category=rings" class="hover:text-gold transition-colors">Fine Rings</a></li>
+            <li><a href="/shop.html?category=necklaces" class="hover:text-gold transition-colors">Talisman Necklaces</a></li>
+            <li><a href="/shop.html?category=earrings" class="hover:text-gold transition-colors">Solitaire Earrings</a></li>
+            <li><a href="/shop.html?category=bracelets" class="hover:text-gold transition-colors">Sculptural Bangles</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-widest text-gold font-semibold mb-4">The Maison</h4>
+          <ul class="space-y-2 text-xs text-stone-300">
+            <li><a href="/about.html" class="hover:text-gold transition-colors">Our Atelier Story</a></li>
+            <li><a href="/about.html#craftsmanship" class="hover:text-gold transition-colors">Ethical Sourcing</a></li>
+            <li><a href="/contact.html" class="hover:text-gold transition-colors">Private Appointments</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase tracking-widest text-gold font-semibold mb-4">Client Care</h4>
+          <ul class="space-y-2 text-xs text-stone-300">
+            <li><a href="/contact.html" class="hover:text-gold transition-colors">Complimentary Shipping</a></li>
+            <li><a href="/contact.html" class="hover:text-gold transition-colors">30-Day Returns</a></li>
+            <li><a href="/contact.html" class="hover:text-gold transition-colors">Authenticity Guarantee</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-400 gap-4">
+        <div>
+          © 2026 Blush Stone Fine Jewelry LLC. All rights reserved.
+        </div>
+        <div class="flex items-center space-x-6 text-[11px] tracking-wider">
+          <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+          <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Drawer, Modals, Checkout -->
+  <div id="cart-drawer" class="fixed inset-0 z-50 pointer-events-none transition-all">
+    <div id="cart-drawer-backdrop" class="fixed inset-0 bg-stone-900/50 backdrop-blur-sm opacity-0 drawer-backdrop"></div>
+    <div id="cart-drawer-panel" class="fixed inset-y-0 right-0 max-w-full w-full sm:w-[420px] bg-cream-pure shadow-2xl flex flex-col transform translate-x-full drawer-panel z-10">
+      <div class="p-6 border-b border-amber-900/10 flex items-center justify-between bg-white">
+        <div class="flex items-center gap-2">
+          <h3 class="font-serif text-xl font-normal text-stone-900">Your Jewelry Bag</h3>
+          <span class="cart-count-badge bg-amber-100 text-bronze text-xs font-semibold px-2 py-0.5 rounded-full">0</span>
+        </div>
+        <button id="close-cart-drawer" class="p-2 text-stone-400 hover:text-stone-900 rounded-full" aria-label="Close Bag">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="px-6 py-3 bg-[#FAF7F2] border-b border-amber-900/10 text-xs">
+        <p id="cart-shipping-text" class="text-stone-600 mb-1.5 font-light">Add $250 for Complimentary Insured Delivery</p>
+        <div class="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden">
+          <div id="cart-shipping-progress" class="bg-bronze h-full w-0 transition-all duration-500"></div>
+        </div>
+      </div>
+
+      <div class="flex-1 overflow-y-auto px-6 divide-y divide-amber-900/10" id="cart-items-container"></div>
+
+      <div id="cart-empty-state" class="hidden flex-1 flex flex-col items-center justify-center p-8 text-center">
+        <div class="w-16 h-16 rounded-full bg-amber-50 text-gold flex items-center justify-center text-2xl font-serif mb-4">✦</div>
+        <h4 class="font-serif text-xl font-medium text-stone-900">Your Bag is Empty</h4>
+        <p class="text-xs text-stone-500 mt-1 max-w-xs">Explore our 2026 collection and discover your signature talisman piece.</p>
+      </div>
+
+      <div class="p-6 border-t border-amber-900/10 bg-white space-y-4">
+        <div class="flex justify-between items-center text-sm">
+          <span class="text-stone-600">Subtotal</span>
+          <span id="cart-subtotal-price" class="font-serif text-lg font-medium text-stone-900">$0.00</span>
+        </div>
+        <button id="cart-checkout-button" class="btn-luxury-primary w-full py-4 rounded-full text-xs uppercase font-semibold tracking-widest text-center shadow-lg shimmer-effect">
+          Proceed to Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div id="search-modal" class="fixed inset-0 z-50 hidden opacity-0 transition-opacity duration-300">
+    <div id="search-modal-backdrop" class="fixed inset-0 bg-stone-900/60 backdrop-blur-md"></div>
+    <div class="relative max-w-2xl mx-auto mt-20 px-4 z-10">
+      <div class="bg-white rounded-2xl shadow-2xl border border-amber-900/10 overflow-hidden">
+        <div class="p-4 border-b border-stone-200 flex items-center gap-3">
+          <svg class="w-5 h-5 text-bronze" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <input type="text" id="global-search-input" placeholder="Search rings, necklaces, earrings, bangles, materials..." class="flex-1 text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none">
+          <button id="close-search-modal" class="text-xs text-stone-400 hover:text-stone-900 uppercase tracking-widest font-semibold p-1">ESC</button>
+        </div>
+        <div id="search-results-container" class="p-4 max-h-[400px] overflow-y-auto"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Modal -->
+  <div id="checkout-modal" class="fixed inset-0 z-50 hidden opacity-0 transition-opacity duration-300">
+    <div class="fixed inset-0 bg-stone-900/60 backdrop-blur-md" onclick="closeCheckoutModal()"></div>
+    <div class="relative max-w-xl mx-auto my-10 px-4 z-10 max-h-[90vh] overflow-y-auto">
+      <div class="bg-cream-pure rounded-2xl shadow-2xl border border-amber-900/10 overflow-hidden">
+        <div class="p-6 border-b border-amber-900/10 bg-white flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="text-gold text-lg">✦</span>
+            <h3 class="font-serif text-xl font-normal text-stone-900">Secure Atelier Checkout</h3>
+          </div>
+          <button id="close-checkout-modal" class="text-stone-400 hover:text-stone-900 p-1">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <div id="checkout-modal-body" class="p-6">
+          <div class="mb-6 p-4 bg-white rounded-xl border border-amber-900/10">
+            <div class="text-xs uppercase tracking-widest text-bronze font-semibold mb-2">Order Summary</div>
+            <div id="checkout-items-preview" class="divide-y divide-stone-100 max-h-36 overflow-y-auto"></div>
+            <div class="pt-3 border-t border-stone-200 mt-2 flex justify-between text-sm font-medium text-stone-900">
+              <span>Total with Insured Delivery</span>
+              <span id="checkout-summary-total">$0.00</span>
+            </div>
+          </div>
+          <form id="checkout-form" class="space-y-4">
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-stone-700 mb-1">Full Name</label>
+              <input type="text" name="fullName" required placeholder="Eleanor Vance" class="w-full px-4 py-2.5 rounded-lg border border-amber-900/20 text-sm focus:outline-none focus:border-bronze bg-white">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-stone-700 mb-1">Email Address</label>
+              <input type="email" name="email" required placeholder="eleanor@luxury.com" class="w-full px-4 py-2.5 rounded-lg border border-amber-900/20 text-sm focus:outline-none focus:border-bronze bg-white">
+            </div>
+            <div>
+              <label class="block text-xs uppercase tracking-wider font-semibold text-stone-700 mb-1">Delivery Address</label>
+              <input type="text" name="address" required placeholder="740 Park Avenue, Penthouse B, New York, NY" class="w-full px-4 py-2.5 rounded-lg border border-amber-900/20 text-sm focus:outline-none focus:border-bronze bg-white">
+            </div>
+            <div class="pt-4">
+              <button type="submit" class="btn-luxury-primary w-full py-4 rounded-full text-xs uppercase font-semibold tracking-widest text-center shadow-lg">
+                Complete Order
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Drawer -->
+  <div id="mobile-menu-modal" class="fixed inset-0 z-50 hidden opacity-0 transition-opacity duration-300">
+    <div id="mobile-menu-backdrop" class="fixed inset-0 bg-stone-900/60 backdrop-blur-sm"></div>
+    <div class="mobile-menu-panel fixed inset-y-0 left-0 w-3/4 max-w-xs bg-cream-pure shadow-2xl p-6 flex flex-col justify-between transform -translate-x-full transition-transform duration-300 z-10">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-amber-900/10">
+          <div class="flex items-center gap-2">
+            <img src="/images/logo.jpg" alt="Blush Stone" class="h-8 w-auto mix-blend-multiply">
+            <span class="font-serif text-lg font-normal text-stone-900">BLUSH STONE</span>
+          </div>
+          <button id="close-mobile-menu" class="p-2 text-stone-400 hover:text-stone-900">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+        <nav class="mt-6 space-y-4 text-sm uppercase tracking-widest font-medium text-stone-800">
+          <a href="/" class="block py-2 hover:text-bronze border-b border-amber-900/10">Home</a>
+          <a href="/shop.html" class="block py-2 hover:text-bronze border-b border-amber-900/10">Collections</a>
+          <a href="/shop.html?category=rings" class="block py-2 hover:text-bronze border-b border-amber-900/10">Rings</a>
+          <a href="/shop.html?category=necklaces" class="block py-2 hover:text-bronze border-b border-amber-900/10">Necklaces</a>
+          <a href="/shop.html?category=earrings" class="block py-2 hover:text-bronze border-b border-amber-900/10">Earrings</a>
+          <a href="/shop.html?category=bracelets" class="block py-2 hover:text-bronze border-b border-amber-900/10">Bracelets</a>
+          <a href="/about.html" class="block py-2 text-bronze border-b border-amber-900/10">About Atelier</a>
+          <a href="/contact.html" class="block py-2 hover:text-bronze">Concierge</a>
+        </nav>
+      </div>
+      <div class="pt-6 border-t border-amber-900/10 text-xs text-stone-500 text-center">
+        <p>Blush Stone Haute Joaillerie</p>
+        <p class="text-gold font-serif mt-1">Est. 2026</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

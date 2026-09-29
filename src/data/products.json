@@ -1,0 +1,249 @@
+[
+  {
+    "id": "bs-nk-01",
+    "name": "Aura Celestial Sunburst Necklace",
+    "subtitle": "18k Gold Medallion with Tiger's Eye & Marquise Crystals",
+    "category": "necklaces",
+    "price": 385,
+    "compareAtPrice": 450,
+    "rating": 4.9,
+    "reviewCount": 48,
+    "badge": "Bestseller",
+    "image": "/images/necklace-celestial-1.jpg",
+    "images": [
+      "/images/necklace-celestial-1.jpg",
+      "/images/necklace-celestial-2.jpg"
+    ],
+    "description": "Inspired by celestial talismans of protection and radiance, the Aura Necklace features a hand-cut natural Tiger's Eye cabochon surrounded by an eye-shaped halo of brilliant-cut pavé and marquise crystal baguette rays. Cast in radiant 18k yellow gold vermeil.",
+    "materials": ["18k Yellow Gold", "18k Rose Gold", "Sterling Silver"],
+    "specifications": {
+      "chainLength": "18 inches + 2 inch extender",
+      "pendantSize": "24mm x 18mm",
+      "clasp": "Signature lobster claw with stamped tag",
+      "gemstone": "Natural Tiger's Eye & Cubic Zirconia Baguettes"
+    },
+    "features": [
+      "Ethically sourced genuine Tiger's Eye stone",
+      "Triple-thick 2.5 micron 18k gold vermeil plating",
+      "Hypoallergenic, lead-free and nickel-free",
+      "Presented in the signature Blush Stone velvet case"
+    ],
+    "isFeatured": true,
+    "inStock": true
+  },
+  {
+    "id": "bs-er-02",
+    "name": "Solitaire Dewdrop Huggie Hoops",
+    "subtitle": "Solid Gold Everyday Mini Hoops with Floating Gem",
+    "category": "earrings",
+    "price": 220,
+    "compareAtPrice": 260,
+    "rating": 4.8,
+    "reviewCount": 36,
+    "badge": "Iconic",
+    "image": "/images/earrings-solitaire-hoops.jpg",
+    "images": [
+      "/images/earrings-solitaire-hoops.jpg"
+    ],
+    "description": "Effortless luxury designed for seamless 24/7 wear. Crafted in high-polish gold with a precision hinge click mechanism, crowned with delicate suspended round brilliant solitaire stones that create kinetic light reflection with every movement.",
+    "materials": ["14k Solid Yellow Gold", "14k White Gold", "14k Rose Gold"],
+    "specifications": {
+      "hoopDiameter": "12mm outer, 9mm inner",
+      "stoneSize": "4.0mm round brilliant cut",
+      "closure": "Curved secure post clicker",
+      "gemstone": "Flawless simulated diamond solitaire"
+    },
+    "features": [
+      "Comfort-click seamless locking clasp",
+      "Sleep-in and shower-safe design",
+      "Micro-prong handset solitaires for supreme sparkle",
+      "Signature gift box and certification booklet"
+    ],
+    "isFeatured": true,
+    "inStock": true
+  },
+  {
+    "id": "bs-br-03",
+    "name": "Elysian Pave Diamond Link Bangle",
+    "subtitle": "Sculptural Gold Cuff with Channel-Set Baguette Gems",
+    "category": "bracelets",
+    "price": 495,
+    "compareAtPrice": 580,
+    "rating": 5.0,
+    "reviewCount": 29,
+    "badge": "Signature",
+    "image": "/images/bracelet-pave-link-bangle.jpg",
+    "images": [
+      "/images/bracelet-pave-link-bangle.jpg"
+    ],
+    "description": "A masterwork of jewelry architecture. Combining the structured strength of luxury watch links with the delicacy of double-channel crystal baguettes, this oval-profile bangle sits flush against the wrist for unmatched modern elegance.",
+    "materials": ["18k Yellow Gold", "18k Rose Gold", "Platinum Silver"],
+    "specifications": {
+      "wristCircumference": "Fits wrists up to 6.8 inches (17.5cm)",
+      "bandWidth": "7mm graduated profile",
+      "closure": "Concealed push-button tension safety clasp",
+      "gemstone": "Hand-channel set crystal baguettes"
+    },
+    "features": [
+      "Precision-engineered ergonomic oval silhouette",
+      "Double safety clasp mechanism",
+      "PVD heavy gold finish resistant to oxidation and wear",
+      "Includes microfiber travel pouch & polishing cloth"
+    ],
+    "isFeatured": true,
+    "inStock": true
+  },
+  {
+    "id": "bs-rg-04",
+    "name": "L'Etoile Solitaire Baguette Band Ring",
+    "subtitle": "Signature Round Brilliant Ring with Baguette Shoulder Accents",
+    "category": "rings",
+    "price": 620,
+    "compareAtPrice": 720,
+    "rating": 5.0,
+    "reviewCount": 52,
+    "badge": "New Arrival",
+    "image": "/images/ring-solitaire-band.jpg",
+    "images": [
+      "/images/ring-solitaire-band.jpg"
+    ],
+    "description": "A timeless modern heirloom. Featuring an exceptional round brilliant center solitaire secured in refined four-claw prongs, complemented by a seamless row of channel-set step-cut baguette diamonds along the heavy 18k gold shank.",
+    "materials": ["18k Yellow Gold", "Platinum / White Gold", "18k Rose Gold"],
+    "sizes": ["5", "6", "7", "8", "9"],
+    "specifications": {
+      "centerStone": "1.75 ct DEW round brilliant",
+      "sideStones": "0.60 ct tw channel baguettes",
+      "bandWidth": "2.8mm comfortable curve",
+      "setting": "Four-prong elevated crown setting"
+    },
+    "features": [
+      "High refractive index stones cut to ideal symmetry",
+      "Silky interior comfort-fit band curve",
+      "Complimentary custom laser engraving available",
+      "Lifetime authenticity & setting warranty"
+    ],
+    "isFeatured": true,
+    "inStock": true
+  },
+  {
+    "id": "bs-nk-05",
+    "name": "Celestial Medallion Knit Choker",
+    "subtitle": "Minimalist Cable Chain with Marquise Aura Pendant",
+    "category": "necklaces",
+    "price": 360,
+    "compareAtPrice": 410,
+    "rating": 4.9,
+    "reviewCount": 22,
+    "badge": "Editorial",
+    "image": "/images/necklace-celestial-2.jpg",
+    "images": [
+      "/images/necklace-celestial-2.jpg",
+      "/images/necklace-celestial-1.jpg"
+    ],
+    "description": "Styled for dramatic evening collars or relaxed cashmere knits. The signature Blush Stone talisman suspended on an elongated diamond-cut rolo chain that catches amber light at every angle.",
+    "materials": ["18k Yellow Gold", "18k Rose Gold", "Sterling Silver"],
+    "specifications": {
+      "chainLength": "16 inches with 3 inch drop options",
+      "pendantSize": "22mm talisman diameter",
+      "clasp": "Reinforced spring ring clasp",
+      "gemstone": "Tigers eye center with pavé baguette rays"
+    },
+    "features": [
+      "Layering-ready chain gauge",
+      "Warm honey-toned natural stone inclusions",
+      "Hand-polished mirror finish",
+      "Presented in satin keepsake pouch"
+    ],
+    "isFeatured": false,
+    "inStock": true
+  },
+  {
+    "id": "bs-er-06",
+    "name": "Petite Solitaire Stacking Huggies",
+    "subtitle": "Dainty Gold Drops for Curated Ear Stacks",
+    "category": "earrings",
+    "price": 195,
+    "compareAtPrice": 230,
+    "rating": 4.7,
+    "reviewCount": 19,
+    "badge": "Trending",
+    "image": "/images/earrings-solitaire-hoops.jpg",
+    "images": [
+      "/images/earrings-solitaire-hoops.jpg"
+    ],
+    "description": "Engineered for second and third lobe piercings or cartilage wear. Ultra-delicate lightweight hoops with sparkling bezel-set drops that bring playful shimmer to your ear collection.",
+    "materials": ["14k Solid Yellow Gold", "14k White Gold"],
+    "specifications": {
+      "hoopDiameter": "10mm outer diameter",
+      "stoneSize": "3.0mm bezel drop",
+      "closure": "Seamless click-hinge",
+      "gemstone": "Lab-grown white brilliant crystal"
+    },
+    "features": [
+      "Feather-light 1.2g per pair",
+      "Zero snag smooth rounded edges",
+      "Safe for sensitive skin and fresh piercings"
+    ],
+    "isFeatured": false,
+    "inStock": true
+  },
+  {
+    "id": "bs-br-07",
+    "name": "Architectura Pave Gold Wristlet",
+    "subtitle": "Industrial Watch Link Bracelet with Crystalline Accents",
+    "category": "bracelets",
+    "price": 460,
+    "compareAtPrice": 520,
+    "rating": 4.8,
+    "reviewCount": 17,
+    "badge": "Limited Edition",
+    "image": "/images/bracelet-pave-link-bangle.jpg",
+    "images": [
+      "/images/bracelet-pave-link-bangle.jpg"
+    ],
+    "description": "A tribute to modern geometric horology. Polished 18k gold link geometry paired with crystal pave settings that catch natural twilight illumination.",
+    "materials": ["18k Yellow Gold", "18k Rose Gold"],
+    "specifications": {
+      "wristCircumference": "Adjustable link segments up to 7.2 inches",
+      "bandWidth": "6mm width",
+      "clasp": "Integrated jewelry box clasp"
+    },
+    "features": [
+      "Solid link construction with high-flex hinges",
+      "Triple gold dipped with micro-protective sealing",
+      "Engraved Blush Stone 2026 hallmark on clasp"
+    ],
+    "isFeatured": false,
+    "inStock": true
+  },
+  {
+    "id": "bs-rg-08",
+    "name": "Eternal Radiance Baguette Band",
+    "subtitle": "Eternity Channel Ring in Warm 18k Yellow Gold",
+    "category": "rings",
+    "price": 480,
+    "compareAtPrice": 550,
+    "rating": 4.9,
+    "reviewCount": 34,
+    "badge": "Classic",
+    "image": "/images/ring-solitaire-band.jpg",
+    "images": [
+      "/images/ring-solitaire-band.jpg"
+    ],
+    "description": "The ultimate stacking companion. A continuous or semi-eternity channel of precision-cut baguette gems encased in a sleek, architectural gold border that sits flush with engagement or statement rings.",
+    "materials": ["18k Yellow Gold", "Platinum / White Gold", "18k Rose Gold"],
+    "sizes": ["5", "6", "7", "8", "9"],
+    "specifications": {
+      "bandWidth": "2.6mm low profile",
+      "stoneCount": "18 precision baguette stones",
+      "finish": "Satin brushed edge with mirror-polish exterior"
+    },
+    "features": [
+      "Bezel channel protects stone edges from daily wear",
+      "Custom sizing available upon request",
+      "Packaged in monogrammed wooden jewelry box"
+    ],
+    "isFeatured": false,
+    "inStock": true
+  }
+]

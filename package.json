@@ -1,0 +1,19 @@
+{
+  "name": "blush-stone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["jewelry", "ecommerce", "luxury", "blush-stone"],
+  "author": "Blush Stone Atelier",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "morgan": "^1.12.1"
+  }
+}
